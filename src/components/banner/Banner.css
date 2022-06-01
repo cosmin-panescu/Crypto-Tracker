@@ -1,0 +1,77 @@
+.banner {
+    background: rgb(18, 22, 41);
+    background: linear-gradient(180deg, rgba(18, 22, 41, 1) 0%, rgba(35, 41, 70, 1) 100%);
+    height: 90vh;
+}
+
+.banner-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner-subtitle {
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+/* CAROUSEL STYLES */
+.carousel {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fffffe;
+}
+
+.carousel-item-image {
+    height: 7rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-item-name-percentage {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.carousel-item-price {
+    font-size: 1.75rem;
+}
+
+/* Media Query */
+@media screen and (max-width: 1000px) {
+    .banner-subtitle {
+        padding: 6vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner-subtitle {
+        font-weight: 600;
+        font-size: 6vw;
+    }
+
+    /* CAROUSEL STYLES */
+    .carousel-item-image {
+        height: 4rem;
+    }
+
+    .carousel-item-name-percentage {
+        font-size: 1.1rem;
+    }
+
+    .carousel-item-price {
+        font-size: 1.5rem;
+    }
+}

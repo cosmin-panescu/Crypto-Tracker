@@ -1,0 +1,161 @@
+.coin-page {
+    background: rgb(18, 22, 41);
+    background: linear-gradient(180deg, rgba(18, 22, 41, 1) 0%, rgba(35, 41, 70, 1) 100%);
+}
+
+.coin-page-content {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10rem 0 0 0;
+}
+
+.coin-image-name {
+    display: flex;
+    justify-content: start;
+    gap: 5rem;
+    border-bottom: 1px solid #fffffe;
+    padding-bottom: 7rem;
+}
+
+.coin-name-symbol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #fffffe;
+}
+
+.coin-page-content p {
+    padding: 6rem 0;
+    text-align: justify;
+    color: #fffffe;
+    border-bottom: 1px solid #fffffe;
+    font-size: 1.75rem;
+}
+
+.coin-page-content p a {
+    color: #b8c1ec;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.coin-prices {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #fffffe;
+}
+
+.more-coin-info {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.more-coin-info h2 {
+    font-weight: 500;
+}
+
+/* Media Query */
+@media screen and (max-width: 1250px) {
+    .coin-page-content {
+        width: 95vw;
+    }
+
+    .coin-name-symbol {
+        font-size: 2.2rem;
+    }
+
+    .coin-page-content p {
+        padding: 4rem;
+        font-size: 1.45rem;
+    }
+
+    .coin-prices {
+        font-size: 1.25rem;
+        flex-wrap: wrap;
+    }
+
+    .more-coin-info {
+        font-size: 1.25rem;
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .coin-page-content {
+        padding: 7rem 0 0 0;
+    }
+
+    .coin-image-name {
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .coin-name-symbol {
+        font-size: 2.25rem;
+    }
+
+    .coin-page-content p a {
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+
+    .coin-prices {
+        font-size: 1.2rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid #fffffe;
+    }
+
+    .more-coin-info {
+        font-size: 1.5rem;
+    }
+
+    .more-coin-info h2 {
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .coin-page-content {
+        padding: 4rem 0;
+    }
+
+    .coin-image-name {
+        gap: 0rem;
+    }
+
+    .coin-image-name img {
+        width: 9rem;
+    }
+
+    .coin-name-symbol {
+        font-size: 4.25vw;
+    }
+
+    .coin-prices {
+        font-size: 4vw;
+    }
+
+    .more-coin-info {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .coin-image-name img {
+        width: 30vw;
+        object-fit: contain;
+    }
+
+    .coin-page-content p {
+        padding: 1rem;
+        font-size: 1.25rem;
+        line-height: 120%;
+    }
+
+    .more-coin-info {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
