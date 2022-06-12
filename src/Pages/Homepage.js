@@ -9,6 +9,6 @@ const Homepage = () => {
             <CoinsTable />
         </>
     )
-}
+} 
 
 export default Homepage

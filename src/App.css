@@ -21,3 +21,13 @@ a {
   color: #b8c1ec;
   min-height: 100vh;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(transparent, #232946);
+  border-radius: 6px;
+}

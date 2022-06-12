@@ -14,7 +14,7 @@
 .banner-subtitle {
     font-weight: 300;
     text-transform: capitalize;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     padding-bottom: 5rem;
 }
@@ -36,7 +36,7 @@
 }
 
 .carousel-item-image {
-    height: 7rem;
+    height: 5.5rem;
     margin-bottom: 1rem;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .carousel-item-price {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
 }
 
 /* Media Query */

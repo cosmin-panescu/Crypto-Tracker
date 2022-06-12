@@ -8,10 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        <Header />
+        <Header /> 
         <Routes>
-          <Route exact path='/' element={<Homepage />} />
-          <Route path='/coins/:id' element={<CoinPage />} />
+          <Route exact path='/Crypto-Tracker' element={<Homepage />} />
+          <Route path='/Crypto-Tracker/coins/:id' element={<CoinPage />} />
         </Routes>
       </div>
     </BrowserRouter>

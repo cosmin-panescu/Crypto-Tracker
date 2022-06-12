@@ -10,12 +10,12 @@
 
 .coinsTable-search {
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.2rem;
     border-radius: 7.5px;
     background-color: transparent;
     outline: none;
     border: 2px solid #121629;
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     color: #b8c1ec;
     margin: 3rem 0 5rem 0;
     transition: all .4s;
@@ -35,13 +35,14 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border-bottom: 1px solid #b8c1ec;
-    padding: 1.25rem;
+    padding: 1rem;
     align-items: center;
     transition: all .2s ease;
 }
 
 .coin-row h2 {
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 1.35rem;
 }
 
 .coin-row:hover {
@@ -56,18 +57,18 @@
 }
 
 .coin-row .coin-name-img img {
-    width: 4rem;
+    width: 3.5rem;
 }
 
 .coin-row .coin-name-img h1 {
     text-transform: uppercase;
-    font-size: 1.75rem;
+    font-size: 1.35rem;
     font-weight: 600;
 }
 
 .coin-row .coin-name-img h3 {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
 }
 
 .coin-name-symbol {
@@ -77,10 +78,10 @@
 }
 
 .coins-table-info {
-    font-size: 1.15rem;
+    font-size: 1rem;
     background-color: #121629;
     color: #fffffe;
-    padding: 1.75rem;
+    padding: 1.25rem;
     cursor: none;
 }
 

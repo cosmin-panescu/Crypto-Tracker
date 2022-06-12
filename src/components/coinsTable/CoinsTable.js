@@ -50,7 +50,7 @@ const CoinsTable = () => {
                     let profit = coin.price_change_percentage_24h >= 0;
 
                     return (
-                        <Link key={coin.symbol} to={`/coins/${coin.id}`} >
+                        <Link key={coin.symbol} to={`/Crypto-Tracker/coins/${coin.id}`} >
                             <div className="coin-row">
                                 <div className="coin-name-img">
                                     <img src={coin.image} alt={coin.name} />

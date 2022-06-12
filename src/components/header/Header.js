@@ -1,6 +1,5 @@
 import React from 'react'
 import './Header.css'
-import { AppBar, Container, MenuItem, Toolbar, Typography, Select } from "@material-ui/core"
 import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
@@ -8,7 +7,7 @@ const Header = () => {
   // click logo --> go to Homepage
   const navigate = useNavigate();
   const handleClickTitle = () => {
-    navigate('/');
+    navigate('/Crypto-Tracker');
   }
 
   return (
