@@ -30,7 +30,7 @@ const Carousel = () => {
         let profit = coin.price_change_percentage_24h >= 0;
 
         return (
-            <Link className="carousel-item" to={`/Crypto-Tracker/coins/${coin.id}`} >
+            <Link className="carousel-item" to={`/coins/${coin.id}`} >
                 <img src={coin?.image} alt={coin.name} className='carousel-item-image' />
                 <span className='carousel-item-name-percentage'>
                     {coin?.symbol} &nbsp;

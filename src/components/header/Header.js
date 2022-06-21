@@ -7,7 +7,7 @@ const Header = () => {
   // click logo --> go to Homepage
   const navigate = useNavigate();
   const handleClickTitle = () => {
-    navigate('/Crypto-Tracker');
+    navigate('/');
   }
 
   return (
