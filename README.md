@@ -1,5 +1,9 @@
 # Crypto-Tracker
 
+<a href="https://cosmin-panescu.github.io/Crypto-Tracker/">Live Project</a>
+
+![crypto-tracker](https://user-images.githubusercontent.com/107345473/178912136-8f7e0103-6b70-44bd-97cb-635a678eeeda.png)
+
 A multi-page application that displays cryptocurrencies. The first page displays the cryptocurrencies, and the second page displays detailed information about the cryptocurrency chosen by the user. You can also search for any currency in real time.
 
 Languages, Frameworks used:
